@@ -74,5 +74,9 @@ Directory structure:
 ┃ ╰━━ nuke_invest.py
 ```
 
+### Known Issues
+If the selected folder contains **many thousands of files or subfolders**, copying the directory tree may be slow or fail silently.  
+This is still being worked on for better reliability.
+
 ### Compatibility
 The registry structure and scripts used are only compatible with Windows 10 and 11.
